@@ -1,0 +1,18 @@
+sensor:
+  - platform: rest
+    name: bund_scoreboard2
+    unique_id: bundesliga-1
+    resource: https://site.web.api.espn.com/apis/v2/sports/soccer/ger.1/standings
+    value_template: "{{ now() }}"
+    json_attributes_path: "$['children'][0]['standings']"
+    json_attributes:
+      - entries
+  
+  - platform: rest
+    name: Bundesliga_2
+    unique_id: bundesliga-2
+    resource: https://site.web.api.espn.com/apis/v2/sports/soccer/ger.2/standings
+    value_template: "{{ now() }}"
+    json_attributes_path: "$['children'][0]['standings']"
+    json_attributes:
+      - entries
