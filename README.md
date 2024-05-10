@@ -14,8 +14,7 @@ Es gibt unterschiedliche Methoden, wie man die Dateien in Home Assistant hinzuf�
 
    ```yaml
    homeassistant:
-     packages:
-       !include_dir_named _packages
+     packages: !include_dir_named _packages
    ```
 
 Um die Tabelle nun darstellen zu können, empfehle ich die Flex-Table-Card, die ihr unter HACS / Fronted findet. HACS steht für Home Assistant Community Store und muss erst installiert werden und ist somit nicht Bestandteil der Home Assistant Grund - Installation.
