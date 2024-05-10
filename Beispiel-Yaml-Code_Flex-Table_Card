@@ -1,3 +1,4 @@
+```yaml
 type: custom:flex-table-card
 title: 1. Bundesliga - Tabelle 2023/2024
 entities:
@@ -41,3 +42,4 @@ columns:
   - name: Punkte
     data: entries
     modify: x.stats[3].value
+```
