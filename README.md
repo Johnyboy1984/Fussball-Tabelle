@@ -26,3 +26,5 @@ Einen Beispiel Code für die Flex-Table-Card findest du auch in meinem Beitrag.
 
 Vielen Dank für dein Interesse und viel Erfolg beim Einfügen.
 
+So sieht es dann aus (Beispiel für die 1. und 2. Bundesliga):
+https://github.com/Johnyboy1984/Fussball-Tabelle/blob/main/Tabelle%201.%20und%202.%20Bundesliga.png
