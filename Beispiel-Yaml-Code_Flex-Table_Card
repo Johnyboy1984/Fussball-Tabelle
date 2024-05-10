@@ -1,0 +1,43 @@
+type: custom:flex-table-card
+title: 1. Bundesliga - Tabelle 2023/2024
+entities:
+  include: sensor.bund_scoreboard2
+  exclude: zwave.unknown_node*
+columns:
+  - name: Platz
+    data: entries
+    modify: x.stats[10].value
+  - name: Logo
+    data: entries
+    modify: >-
+      '<img src="' + x.team.logos[0].href + '"style="width: 26px; padding-top:
+      4px; padding-left: 4px">'
+  - name: Mannschaft
+    data: entries
+    modify: x.team.name
+  - name: Spiele
+    data: entries
+    modify: x.stats[0].value
+  - name: S
+    data: entries
+    modify: x.stats[7].value
+  - name: U
+    data: entries
+    modify: x.stats[6].value
+  - name: 'N'
+    data: entries
+    modify: x.stats[1].value
+  - name: Tore
+    data: entries
+    modify: |-
+      {
+        x.stats[5].value +
+        " : "+
+        x.stats[4].value
+      }
+  - name: D
+    data: entries
+    modify: x.stats[2].value
+  - name: Punkte
+    data: entries
+    modify: x.stats[3].value
