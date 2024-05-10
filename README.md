@@ -6,10 +6,12 @@ Habe euch mal Yaml Dateien hinzugefügt, um Fußball Tabellen in Home Assistant 
 Es gibt unterschiedliche Methoden, wie man die Dateien in Home Assistant hinzufügen kann. Wichtig ist bei jeder Datei, die man hinzufügt, zu prüfen, ob die Konfiguration in der Datei selber in Ordnung ist (File Editor, VS Studio Code....) und im 2. Schritt, die Konfiguration in Home Assistant selber unter den Entwicklerwerkzeugen und dann auf Konfiguration prüfen klicken, zu prüfen. Erst, wenn beides in Ordnung ist, Home Assistant neustarten.
 
 1. Methode zum Hinzufügen in Home Assistant (in dem Verzeichnis, wo auch die Configuration.yaml ist):
+
    Hier ist wichtig, dass man in der Configurationen yaml folgendes hinzufügt:
    deinName der Datei (ohne.yaml): !include deinName der Datei.yaml
    
-2. Methothe, die ich verwende. Habe einen Ordner namens _packages erstellt.
+3. Methothe, die ich verwende. Habe einen Ordner namens _packages erstellt.
+
    Damit der Ordner in Home Assistant eingelesen wird muss man in der Configuration.yaml um folgenden Code ergänzen:
 
    ```yaml
