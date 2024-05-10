@@ -1,5 +1,5 @@
 # Fussball-Tabelle
-Home Assistant yaml -  Code für Fußbll Tabellen
+Home Assistant yaml -  Code für Fußball Tabellen
 
 Habe euch mal Yaml Dateien hinzugefügt, um Fußball Tabellen in Home Assistant zu bekommen. Der Code basiert auf Yaml-Basis
 
