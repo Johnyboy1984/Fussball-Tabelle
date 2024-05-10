@@ -21,7 +21,7 @@ Es gibt unterschiedliche Methoden, wie man die Dateien in Home Assistant hinzuf�
 
 Um die Tabelle nun darstellen zu können, empfehle ich die Flex-Table-Card, die ihr unter HACS / Fronted findet. HACS steht für Home Assistant Community Store und muss erst installiert werden und ist somit nicht Bestandteil der Home Assistant Grund - Installation.
 
-Für die Installation von HACS empfehle ich dir das Video von Thomas (Steuer dein Leben), welches du auf Youtube findest,anzusehen. Hier der Link zum Video: https://www.youtube.com/watch?v=s9LAMHqfTxs
+Für die Installation von HACS empfehle ich dir das Video von Thomas (Steuer dein Leben), welches du auf Youtube findest, anzusehen. Hier der Link zum Video: https://www.youtube.com/watch?v=s9LAMHqfTxs
 
 
 Flex-Table-Card: https://github.com/custom-cards/flex-table-card
